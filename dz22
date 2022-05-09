@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        li {
+            margin: 20px;
+            list-style: none
+        }
+
+        main {
+            flex-wrap: wrap;
+            flex-direction: column;
+            top: 10%;
+            display: flex;
+            width: 100ch;
+            height: 70vh;
+            justify-content: space-between;
+        }
+
+        .crveni {
+            width: 50%;
+            flex-basis: 100%;
+            background-color: red;
+        }
+
+        .zeleni {
+            width: 100%;
+            flex-basis: 20%;
+            background-color: green;
+        }
+
+        .zuti {
+            width: 100%;
+            background-color: yellow;
+            flex-basis: 20%;
+        }
+
+        .plavi {
+            width: 100%;
+            background-color: blue;
+            flex-basis: 100%;
+
+        }
+    </style>
+</head>
+<div>
+    <!-- <div style="background-color:  red; display: inline;block;width 50% ;">prvi</div>
+    <div style="background-color: blue; display: inline 50%;">drugi</div> -->
+</div>
+<main>
+    <sidebar class="crveni">crveni</sidebar>
+    <section class="zeleni">zeleni</section>
+    <section class="zuti">zuti</section>
+    <sidebar class="plavi">plavi</sidebar>
+</main>
+
+
+</body>
+
+</html>
